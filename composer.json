@@ -1,0 +1,54 @@
+{
+    "name": "milad/filament-arcaptcha-field",
+    "description": "Provides an ArCaptcha field for Filament Forms (V2-V3-V4), works in Admin-Panel and Frontend-Forms.",
+    "keywords": [
+        "filament",
+        "laravel",
+        "arcaptcha",
+        "captcha",
+        "form"
+    ],
+    "homepage": "https://github.com/milad/filament-arcaptcha-field",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milad",
+            "email": "milad@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "arcaptcha/arcaptcha-php": "^1.0",
+        "filament/filament": "^2.0|^3.0|^4.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0|^8.0|^9.0",
+        "phpunit/phpunit": "^9.5|^10.0",
+        "mockery/mockery": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Milad\\FilamentArCaptchaField\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Milad\\FilamentArCaptchaField\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Milad\\FilamentArCaptchaField\\FilamentArCaptchaFieldServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html coverage"
+    }
+}
+
