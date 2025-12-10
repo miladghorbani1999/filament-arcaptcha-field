@@ -1,0 +1,11 @@
+/.idea
+/.phpunit.result.cache
+/.vscode
+/build
+/composer.lock
+/docs
+/node_modules
+/phpunit.xml
+/vendor
+.phpunit.result.cache
+
