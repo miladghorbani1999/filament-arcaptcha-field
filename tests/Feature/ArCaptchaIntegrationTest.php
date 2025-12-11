@@ -1,10 +1,10 @@
 <?php
 
-namespace Milad\FilamentArCaptchaField\Tests\Feature;
+namespace Ghorbani\FilamentArCaptchaField\Tests\Feature;
 
-use Milad\FilamentArCaptchaField\Forms\Components\ArCaptcha;
-use Milad\FilamentArCaptchaField\Rules\ArCaptchaRule;
-use Milad\FilamentArCaptchaField\Tests\TestCase;
+use Ghorbani\FilamentArCaptchaField\Forms\Components\ArCaptcha;
+use Ghorbani\FilamentArCaptchaField\Rules\ArCaptchaRule;
+use Ghorbani\FilamentArCaptchaField\Tests\TestCase;
 use Illuminate\Support\Facades\Validator;
 
 class ArCaptchaIntegrationTest extends TestCase

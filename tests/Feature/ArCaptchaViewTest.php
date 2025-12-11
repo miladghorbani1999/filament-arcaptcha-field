@@ -1,9 +1,9 @@
 <?php
 
-namespace Milad\FilamentArCaptchaField\Tests\Feature;
+namespace Ghorbani\FilamentArCaptchaField\Tests\Feature;
 
-use Milad\FilamentArCaptchaField\Forms\Components\ArCaptcha;
-use Milad\FilamentArCaptchaField\Tests\TestCase;
+use Ghorbani\FilamentArCaptchaField\Forms\Components\ArCaptcha;
+use Ghorbani\FilamentArCaptchaField\Tests\TestCase;
 
 class ArCaptchaViewTest extends TestCase
 {

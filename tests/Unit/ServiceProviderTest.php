@@ -1,9 +1,9 @@
 <?php
 
-namespace Milad\FilamentArCaptchaField\Tests\Unit;
+namespace Ghorbani\FilamentArCaptchaField\Tests\Unit;
 
-use Milad\FilamentArCaptchaField\FilamentArCaptchaFieldServiceProvider;
-use Milad\FilamentArCaptchaField\Tests\TestCase;
+use Ghorbani\FilamentArCaptchaField\FilamentArCaptchaFieldServiceProvider;
+use Ghorbani\FilamentArCaptchaField\Tests\TestCase;
 
 class ServiceProviderTest extends TestCase
 {

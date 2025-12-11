@@ -1,9 +1,9 @@
 <?php
 
-namespace Milad\FilamentArCaptchaField\Tests\Unit;
+namespace Ghorbani\FilamentArCaptchaField\Tests\Unit;
 
-use Milad\FilamentArCaptchaField\Rules\ArCaptchaRule;
-use Milad\FilamentArCaptchaField\Tests\TestCase;
+use Ghorbani\FilamentArCaptchaField\Rules\ArCaptchaRule;
+use Ghorbani\FilamentArCaptchaField\Tests\TestCase;
 use Mockery;
 
 class ArCaptchaRuleTest extends TestCase

@@ -2,8 +2,8 @@
 
 Provides an ArCaptcha field for Filament Forms (V2-V3-V4), works in Admin-Panel and Frontend-Forms.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/milad/filament-arcaptcha-field.svg?style=flat-square)](https://packagist.org/packages/milad/filament-arcaptcha-field)
-[![Total Downloads](https://img.shields.io/packagist/dt/milad/filament-arcaptcha-field.svg?style=flat-square)](https://packagist.org/packages/milad/filament-arcaptcha-field)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ghorbani/filament-arcaptcha-field.svg?style=flat-square)](https://packagist.org/packages/ghorbani/filament-arcaptcha-field)
+[![Total Downloads](https://img.shields.io/packagist/dt/ghorbani/filament-arcaptcha-field.svg?style=flat-square)](https://packagist.org/packages/ghorbani/filament-arcaptcha-field)
 
 This plugin is built on top of [arcaptcha/arcaptcha-php](https://github.com/arcaptcha/arcaptcha-php) package.
 
@@ -12,7 +12,7 @@ This plugin is built on top of [arcaptcha/arcaptcha-php](https://github.com/arca
 You can install the package via composer:
 
 ```bash
-composer require milad/filament-arcaptcha-field
+composer require ghorbani/filament-arcaptcha-field
 ```
 
 ### Configuration
@@ -20,7 +20,7 @@ composer require milad/filament-arcaptcha-field
 Publish the configuration file:
 
 ```bash
-php artisan vendor:publish --provider="Milad\FilamentArCaptchaField\FilamentArCaptchaFieldServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Ghorbani\FilamentArCaptchaField\FilamentArCaptchaFieldServiceProvider" --tag="config"
 ```
 
 Add `ARCAPTCHA_SECRET_KEY` and `ARCAPTCHA_SITE_KEY` in your `.env` file:
@@ -37,7 +37,7 @@ You can obtain these keys from [ArCaptcha Dashboard](https://arcaptcha.ir/dashbo
 ### In Admin Panel
 
 ```php
-use Milad\FilamentArCaptchaField\Forms\Components\ArCaptcha;
+use Ghorbani\FilamentArCaptchaField\Forms\Components\ArCaptcha;
 
 public static function form(Form $form): Form
 {
@@ -52,7 +52,7 @@ public static function form(Form $form): Form
 ### In Frontend Forms
 
 ```php
-use Milad\FilamentArCaptchaField\Forms\Components\ArCaptcha;
+use Ghorbani\FilamentArCaptchaField\Forms\Components\ArCaptcha;
 
 public $captcha = ''; // must be initialized
 
@@ -95,7 +95,7 @@ ArCaptcha::make('captcha')
 You can use the `ArCaptchaRule` for automatic validation:
 
 ```php
-use Milad\FilamentArCaptchaField\Rules\ArCaptchaRule;
+use Ghorbani\FilamentArCaptchaField\Rules\ArCaptchaRule;
 
 // In your form rules
 protected function getFormValidationRules(): array
@@ -109,7 +109,7 @@ protected function getFormValidationRules(): array
 Or in a Livewire component:
 
 ```php
-use Milad\FilamentArCaptchaField\Rules\ArCaptchaRule;
+use Ghorbani\FilamentArCaptchaField\Rules\ArCaptchaRule;
 
 public function submit()
 {
@@ -126,7 +126,7 @@ public function submit()
 To verify the ArCaptcha response manually:
 
 ```php
-use Milad\FilamentArCaptchaField\Forms\Components\ArCaptcha;
+use Ghorbani\FilamentArCaptchaField\Forms\Components\ArCaptcha;
 
 $arcaptcha = ArCaptcha::make('captcha');
 
@@ -141,7 +141,7 @@ if ($arcaptcha->verify($data['captcha'])) {
 Or in a Livewire component:
 
 ```php
-use Milad\FilamentArCaptchaField\Forms\Components\ArCaptcha;
+use Ghorbani\FilamentArCaptchaField\Forms\Components\ArCaptcha;
 
 public function submit()
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Milad\FilamentArCaptchaField;
+namespace Ghorbani\FilamentArCaptchaField;
 
 use Illuminate\Support\ServiceProvider;
 

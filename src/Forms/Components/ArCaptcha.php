@@ -1,6 +1,6 @@
 <?php
 
-namespace Milad\FilamentArCaptchaField\Forms\Components;
+namespace Ghorbani\FilamentArCaptchaField\Forms\Components;
 
 use Filament\Forms\Components\Field;
 use Mohammadv184\ArCaptcha\ArCaptcha as ArCaptchaLib;

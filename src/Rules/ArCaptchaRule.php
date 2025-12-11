@@ -1,6 +1,6 @@
 <?php
 
-namespace Milad\FilamentArCaptchaField\Rules;
+namespace Ghorbani\FilamentArCaptchaField\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Mohammadv184\ArCaptcha\ArCaptcha;

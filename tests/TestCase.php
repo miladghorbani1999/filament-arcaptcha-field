@@ -1,8 +1,8 @@
 <?php
 
-namespace Milad\FilamentArCaptchaField\Tests;
+namespace Ghorbani\FilamentArCaptchaField\Tests;
 
-use Milad\FilamentArCaptchaField\FilamentArCaptchaFieldServiceProvider;
+use Ghorbani\FilamentArCaptchaField\FilamentArCaptchaFieldServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

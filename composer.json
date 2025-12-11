@@ -1,5 +1,5 @@
 {
-    "name": "milad/filament-arcaptcha-field",
+    "name": "ghorbani/filament-arcaptcha-field",
     "description": "Provides an ArCaptcha field for Filament Forms (V2-V3-V4), works in Admin-Panel and Frontend-Forms.",
     "keywords": [
         "filament",
@@ -29,18 +29,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Milad\\FilamentArCaptchaField\\": "src/"
+            "Ghorbani\\FilamentArCaptchaField\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Milad\\FilamentArCaptchaField\\Tests\\": "tests/"
+            "Ghorbani\\FilamentArCaptchaField\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Milad\\FilamentArCaptchaField\\FilamentArCaptchaFieldServiceProvider"
+                "Ghorbani\\FilamentArCaptchaField\\FilamentArCaptchaFieldServiceProvider"
             ]
         }
     },
