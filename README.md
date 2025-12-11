@@ -199,5 +199,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 - [ArCaptcha PHP Library](https://github.com/arcaptcha/arcaptcha-php)
 - [Filament](https://filamentphp.com/)
-- Inspired by [filament-grecaptcha-field](https://github.com/AbanoubNassem/filament-grecaptcha-field)
 
