@@ -41,10 +41,12 @@
                         'callback': (response) => {
                             this.arcaptchaResponse = response;
                             @this.set('{{ $getStatePath() }}', response);
+                            @this.call('$validate');
                         },
                         'expired-callback': () => {
                             this.arcaptchaResponse = null;
                             @this.set('{{ $getStatePath() }}', null);
+                            @this.call('$validate');
                         },
                         ...options
                     });
@@ -55,6 +57,7 @@
                     ArCaptcha.reset(this.arcaptchaInstance);
                     this.arcaptchaResponse = null;
                     @this.set('{{ $getStatePath() }}', null);
+                    @this.call('$validate');
                 }
             }
         }"
